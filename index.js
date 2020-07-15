@@ -1,12 +1,15 @@
-const fetch = require("node-fetch");
+"use strict";
 
-const isBenMarried = () =>
-  fetch("https://isbenmarriedyet.com/api.json")
+var fetch = require("node-fetch");
+
+function isBenMarried() {
+  return fetch("https://isbenmarriedyet.com/api.json")
     .then((res) => res.json())
     .then(({ married }) => (married ? "Yes" : "No"));
+}
 
-const main = async () => {
-  console.log(await isBenMarried());
-};
+function main() {
+  isBenMarried().then(console.log);
+}
 
 main();
