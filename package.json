@@ -1,6 +1,6 @@
 {
   "name": "is_ben_married",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Is Ben married?",
   "main": "index.js",
   "repository": "https://github.com/wuz/is_ben_married_js",
