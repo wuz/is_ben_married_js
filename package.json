@@ -1,0 +1,13 @@
+{
+  "name": "is_ben_married",
+  "version": "1.0.1",
+  "description": "Is Ben married?",
+  "main": "index.js",
+  "repository": "https://github.com/wuz/is_ben_married_js",
+  "homepage": "https://isbenmarriedyet.com/",
+  "author": "wuz <c@wuz.sh>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
