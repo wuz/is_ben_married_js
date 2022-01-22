@@ -11,6 +11,6 @@
     "is_ben_married": "./index.js"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^3.1.1"
   }
 }
